@@ -15,12 +15,9 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
 
-        if(this.scrollY >= pos.top) {
-            $('.bars .line').addClass("active-line");
-        }
-        if (this.scrollY < pos.top + 500) {
-            $('.bars .line').removeClass("active-line");
-        }
+        // if(this.scrollY >= pos.top) {
+        //     $('.bars .line').addClass("active-line");
+        // }
         
     });
     
